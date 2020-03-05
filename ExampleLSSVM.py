@@ -4,8 +4,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
+# Import sample sine curve (with noise)
 data = pd.read_excel(
-    os.path.realpath("C:\\Users\\Fhyarnir\\Documents\\pythonMain\\ml\\test\\sine.xlsx")
+    os.path.realpath(
+        "C:\\Users\\Fhyarnir\\Documents\\pythonMain\\ml\\PredictSineCurve\\sine.xlsx"
+    )
 )
 
 
